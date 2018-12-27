@@ -1,5 +1,5 @@
 Name:           protobuf
-Version:		%{VERSION}
+Version:        %{VERSION}
 Release:        %{RELEASE}%{?dist}
 Summary:        Protocol Buffers - Google's data interchange format 
 License:        BSD
