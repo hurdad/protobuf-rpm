@@ -21,7 +21,7 @@ Requires:   %{name}%{?_isa} = %{version}-%{release}
 This package contains the development headers and library for %{name}.
 
 %prep
-%setup -n %{name}-%{version}
+%setup -n %{name}-5902e759108d14ee8e6b0b07653dac2f4e70ac73
 
 %build
 ./autogen.sh
