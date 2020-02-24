@@ -1,9 +1,9 @@
 # protobuf	 
-version = 3.7.1
+version = 3.11.3
 release = 1
 name = protobuf
 full_name = $(name)-$(version)
-download_url = https://github.com/protocolbuffers/protobuf/archive/5902e759108d14ee8e6b0b07653dac2f4e70ac73.tar.gz
+download_url = "https://github.com/google/$(name)/archive/v$(version).tar.gz"
 
 all: rpm
 
