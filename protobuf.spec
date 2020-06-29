@@ -114,12 +114,12 @@ ldconfig
 %files
 %defattr(-,root,root,-)
 %doc LICENSE README.md
-%{_libdir}/libprotobuf.so.22*
+%{_libdir}/libprotobuf.so.23*
 
 %files compiler
 %defattr(-,root,root,-)
 %{_bindir}/protoc
-%{_libdir}/libprotoc.so.22*
+%{_libdir}/libprotoc.so.23*
 
 %files devel
 %defattr(-,root,root,-)
@@ -134,7 +134,7 @@ ldconfig
 %{_libdir}/libprotoc.a
  
 %files lite
-%{_libdir}/libprotobuf-lite.so.22*
+%{_libdir}/libprotobuf-lite.so.23*
  
 %files lite-devel
 %{_libdir}/libprotobuf-lite.so

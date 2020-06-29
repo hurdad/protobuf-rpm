@@ -1,5 +1,5 @@
 # protobuf	 
-version = 3.11.3
+version = 3.12.0
 release = 1
 name = protobuf
 full_name = $(name)-$(version)
